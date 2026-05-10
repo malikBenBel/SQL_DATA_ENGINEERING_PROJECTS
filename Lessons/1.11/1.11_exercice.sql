@@ -62,7 +62,7 @@ ORDER BY
 
 SELECT COUNT(job_id) 
 FROM job_postings_fact
-WHERE job_country = 'France';
+WHERE job_country = 'Algeria';
 
 
 SELECT DISTINCT  job_country FROM job_postings_fact ORDER BY job_country;
